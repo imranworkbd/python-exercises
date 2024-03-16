@@ -1,1 +1,11 @@
 Write a Python program to sum all the items in a list.
+
+Solution:
+list = [2,3,4,-2,6,-5]
+print(type(list))
+
+total = 0
+for x in list:
+    total += x
+
+print(total)
